@@ -1,0 +1,141 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ 
+ }
+ 
+ .cantainer {
+    flex: 1;
+ }
+ 
+ 
+  /* navbar */
+  .navbar {
+     height: 5rem;
+     background-color: aliceblue
+  }
+ 
+  .fa-compass {
+     color: #fe424d;
+     font-size: 2rem;
+  }
+ 
+  .nav-link {
+     color: #222222 !important;
+  }
+  
+ 
+ /* footer */
+ 
+ .f-info-links a {
+     text-decoration: none;
+     color:  #222222;
+  }
+ 
+  .f-info-links a:hover {
+     text-decoration: underline;
+  }
+ 
+  .f-info {
+     text-align: center;
+     height: 8rem;
+     background-color: #fbf9f9;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: space-evenly;
+   }
+ 
+  .f-info-links ,
+  .f-info-socials,
+  .f-info-brand {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .f-info-socials i {
+     font-size: 1.5rem;
+     margin-right: 1rem;
+ }
+ 
+ /* carda */
+ 
+ 
+ .listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+ }
+  
+ .card-img-top {
+    border-radius: 1.5rem !important;
+    width: 80% !important;
+    object-fit: cover !important;
+ 
+ }
+ 
+ .card-body {
+    padding: 0 !important;
+ }
+ 
+ .card-text p {
+    font-weight: 200 !important;
+ }
+ 
+ .listing-link {
+    text-decoration: none;
+    
+ }
+ 
+ /* card effect */
+  .card-img-overlay {
+    opacity: 0;
+  }
+ 
+  .card-img-overlay:hover {
+    opacity: 0.3;
+    background-color: rgb(191, 143, 236);
+  }
+ 
+  /* new page */
+  /* edit page  */
+ 
+  .add-btn {
+    color: #c7ff1d !important;
+  }
+ 
+  /* show page */
+ 
+  .show-img {
+    height: 30vh;
+  }
+ 
+  .btns{
+    display: flex;
+  }
+ 
+  .delete-btn {
+     color: rgb(8, 2, 2) !important;
+     background-color: red !important;
+  }
+ 
+  .show-card {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* map */
+#map {
+   height: 300px;
+   width: 100vh;
+}
+
+
+#filters {
+   margin: 1rem;
+   display: flex;
+   flex-wrap: wrap;
+}
