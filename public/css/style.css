@@ -71,8 +71,8 @@ body {
  }
   
  .card-img-top {
-    border-radius: 1.5rem !important;
-    width: 80% !important;
+    border-radius: 1rem !important;
+    width: 100% !important;
     object-fit: cover !important;
  
  }
@@ -82,7 +82,7 @@ body {
  }
  
  .card-text p {
-    font-weight: 200 !important;
+    font-weight: 400 !important;
  }
  
  .listing-link {
@@ -127,7 +127,7 @@ body {
     padding-right: 0;
   }
 
-  /* map */
+    /* map */
 #map {
    height: 300px;
    width: 100vh;
